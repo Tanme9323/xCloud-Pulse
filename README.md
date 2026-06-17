@@ -12,7 +12,7 @@ A native macOS **menu bar** app to monitor your xCloud sites and servers — sit
 
 | Mac | Download |
 |-----|----------|
-| **Apple Silicon** (M1/M2/M3/M4) | [⬇︎ xCloud‑Pulse‑Apple‑Silicon.dmg](https://github.com/xCloudDev/xCloud-Pulse/raw/master/xCloud-Pulse-Apple-Silicon.dmg) |
+| **Apple Silicon** (M1/M2/M3/M4/M5) | [⬇︎ xCloud‑Pulse‑Apple‑Silicon.dmg](https://github.com/xCloudDev/xCloud-Pulse/raw/master/xCloud-Pulse-Apple-Silicon.dmg) |
 | **Intel** | [⬇︎ xCloud‑Pulse‑Intel.dmg](https://github.com/xCloudDev/xCloud-Pulse/raw/master/xCloud-Pulse-Intel.dmg) |
 
 Not sure which one? Click the  Apple menu → **About This Mac**. A "Chip" starting with **Apple** = Apple Silicon; a "Processor" that says **Intel** = Intel.
